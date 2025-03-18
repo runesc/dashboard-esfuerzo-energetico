@@ -1,0 +1,6 @@
+import os
+
+class Settings:
+    GITHUB_CLIENT_ID = os.getenv('UVICORN_GITHUB_CLIENT_ID')
+    GITHUB_CLIENT_SECRET = os.getenv('UVICORN_GITHUB_CLIENT_SECRET')
+    MONGO_HOST = os.getenv('UVICORN_MONGO_HOST')
